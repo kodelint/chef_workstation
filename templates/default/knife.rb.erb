@@ -1,0 +1,9 @@
+log_level                :info
+log_location             STDOUT
+node_name                "<%= @admin_node_name %>"
+client_key               "#{ENV['HOME']}/.chef/<%= @admin_node_name %>.pem"
+validation_client_name   '<%= @org_client_validation_key %>-validator'
+validation_key           "<%= @org_user_home %>/<%= @org_client_validation_key %>-validator.pem"
+chef_server_url          'https://<%= @node_fqdn %>.cheflab.dev/organizations/<%= @org_name %>'
+cookbook_path            ['~/repos/']
+syntax_check_cache_path  "#{ENV['HOME']}/.chef/syntax_check_cache"

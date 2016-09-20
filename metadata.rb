@@ -1,15 +1,8 @@
 name 'chef_workstation'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Satyajit Roy'
+maintainer_email 'kodelint@gmail.com'
 license 'all_rights'
 description 'Installs/Configures chef_workstation'
 long_description 'Installs/Configures chef_workstation'
-version '0.1.0'
+version '0.1.1'
 
-# If you upload to Supermarket you should set this so your cookbook
-# gets a `View Issues` link
-# issues_url 'https://github.com/<insert_org_here>/chef_workstation/issues' if respond_to?(:issues_url)
-
-# If you upload to Supermarket you should set this so your cookbook
-# gets a `View Source` link
-# source_url 'https://github.com/<insert_org_here>/chef_workstation' if respond_to?(:source_url)
